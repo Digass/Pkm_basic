@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url('../img/31a7ca0490ba063e2f64f284cd3f1283-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* adiciona o "." pq é uma classe */
+.logo{
+    width: 100px;
+    height: 100px;
+
+}
+a{
+    color: rgb(14, 61, 104);
+    text-decoration: none;
+    font-size: 28px;
+    margin: 50px;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+}
+h1{
+    font-size: 120px;
+    color: rgb(64, 158, 212);
+    word-spacing: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.bola{
+    width: 15vw;
+    height: 20vh;
+}
